@@ -7,11 +7,29 @@ body{
    align-items: center;
    color: gold;
 }
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
 #pokemons{
     display: flex;
 }
 
-.main{
+main{
     display: flex;
     flex-direction: column;
+    border: gold solid 2vh;
+    padding: 2vw 4vw;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.pokepic{
+    border: red solid 1vh;
+    border-radius: 50px;
+    margin: 1vw;
 }
